@@ -4,7 +4,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || 'kord_ai-xPuwEEYYYa4rOEI4',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2449040165195",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349040165195",
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[.]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
